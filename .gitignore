@@ -1,5 +1,6 @@
 # raw data
-data/raw/
+data/raw/*
+!data/raw/.gitkeep
 
 # ==============================
 # Python
