@@ -5,10 +5,10 @@ Access: https://zenodo.org/records/17957582
 
 To process raw data:
 - Download `globi-bees-filtered_file.tsv.gz` and place it in the `data/raw` folder. Some data preprocessing is done here, such as selecting relevant columns and dropping rows NaN values in key columns
-- Run `trim_df.ipynb`, which will generate `processed/bees.parquet`
+- Run `load_globi_bees.py`, which will generate `processed/bees.parquet`
 
 To load processed df:
-- Write something like `df = pd.read_parquet("data/processed/bee_interactions.parquet")`
+- Write something like `df = pd.read_parquet("data/processed/bees.parquet")`
 
 ### Features
 Feature information can be found in `data/features.json`.
